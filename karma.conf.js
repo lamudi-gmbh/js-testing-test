@@ -9,15 +9,15 @@ module.exports = function(config) {
         frameworks: ['jasmine', 'requirejs'],
 
         files: [
-            {pattern: 'lib/**/*.js', included: false},
-            {pattern: 'src/**/*.js', included: false},
-            {pattern: 'test/**/*Spec.js', included: false},
+            {pattern: 'app/vendor/**/*.js', included: false},
+            {pattern: 'app/js/**/*.js', included: false},
+            {pattern: 'app/test/**/*Spec.js', included: false},
 
-            'test/test-main.js'
+            'app/test/test-main.js'
         ],
 
         exclude: [
-            'src/main.js'
+            'app/js/main.js'
         ],
 
         reporters: ['progress', 'coverage'],

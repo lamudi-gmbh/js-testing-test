@@ -15,7 +15,7 @@ gulp.task('lint', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch('./src/**/*.js', ['lint']);
+    gulp.watch('./app/js/**/*.js', ['lint']);
 });
 
 /**
