@@ -1,0 +1,12 @@
+{
+  "name": "unit",
+  "version": "1.0.0",
+  "authors": [
+    "David Fernandez <dfvalero@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "requirejs": "2.1.17",
+    "jquery": "2.1.3"
+  }
+}

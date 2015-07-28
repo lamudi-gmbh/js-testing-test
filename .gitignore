@@ -1,0 +1,10 @@
+# +++ IDEs - feel free to add yours +++
+.idea
+*.iml
+
+# +++ Local stuff +++
+.DS_Store
+/nbproject/
+/coverage/
+/node_modules/
+/__MACOSX
